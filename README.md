@@ -27,6 +27,7 @@
 
 * [About the Project](#about-the-project)
     * [Built With](#built-with)
+    * [Execution](#execution)
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
@@ -39,6 +40,13 @@ This repository contains the source code for "Hot Dog or Not" Web App. It was ma
 ### Built With
 
 The web app was built with Flask, Tensorflow, Jinja2 and HTML. See `Acknowledgements` for more info.
+
+### Execution
+
+To execute, simply:
+  1. Clone this repositary with `git clone https://github.com/shridpant/smort-apps`. Ensure you have tensorflow and Flask installed.
+  2. Execute with `python app.py`.
+  3. Open the address from the terminal on your browser. Upload the image and get your results!
 
 <!-- LICENSE -->
 ## License
