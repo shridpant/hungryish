@@ -2,25 +2,21 @@
 
 <br />
 <p align="center">
-  <a href="https://github.com/shridpant/smort-apps">
+  <a href="https://github.com/shridpant/hungryish">
     <img src="static/logo.png" alt="Logo" width="80" height="80">
   </a>
-
   <h3 align="center">Hot Dog or Not</h3>
 
   <p align="center">
     Welcome to this GitHub repository!
     <br />
-    <a href="https://github.com/shridpant/smort-apps"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/shridpant/hungryish"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
+    <a href="https://github.com/shridpant/hungryish/issues">Report Bug</a>
     ·
-    <a href="https://github.com/shridpant/smort-apps/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/shridpant/smort-apps/issues">Request Feature</a>
+    <a href="https://github.com/shridpant/hungryish/issues">Request Feature</a>
   </p>
 </p>
-
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -44,7 +40,7 @@ The web app was built with Flask, Tensorflow, Jinja2 and HTML. See `Acknowledgem
 ### Execution
 
 To execute, simply:
-  1. Clone this repositary with `git clone https://github.com/shridpant/smort-apps`. Ensure you have tensorflow and Flask installed.
+  1. Clone this repositary with `git clone https://github.com/shridpant/hungryish`. Ensure you have tensorflow and Flask installed.
   2. Execute with `python app.py`.
   3. Open the address from the terminal on your browser. Upload the image and get your results!
 
