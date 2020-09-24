@@ -17,7 +17,6 @@ def main_page():
 
 @app.route('/prediction/<filename>') 
 def prediction(filename):
-    #my_image = plt.imread(os.path.join('uploads', filename))
     my_image = os.getcwd() + '\\static\\' + str(filename)
     html_image = image_file = url_for('static', filename=str(filename))
     image_file = tf.io.gfile.GFile(my_image, 'rb')
@@ -32,13 +31,11 @@ def prediction(filename):
         tensor = session.graph.get_tensor_by_name('final_result:0')
         #^ Feeding data as input and find the first prediction
         result = session.run(tensor, {'DecodeJpeg/contents:0': data})
-        
         top_results = result[0].argsort()[-len(result[0]):][::-1] 
         max_score = 0
         for type in top_results:
             hot_dog_or_not = classes[type]
             score = result[0][type]
-            #print('%-20s : %.5f' % (hot_dog_or_not, score))
             if score > max_score:
                 max_score = score
                 predictions = hot_dog_or_not
