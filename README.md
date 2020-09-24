@@ -2,8 +2,8 @@
 
 <br />
 <p align="center">
-  <a href="https://github.com/shridpant/hungryish">
-    <img src="static/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/shridpant/smort-apps">
+    <img src="static/logo.png" alt="Logo" width="200" height="100">
   </a>
   <h3 align="center">Hot Dog or Not</h3>
 
