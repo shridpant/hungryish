@@ -3,7 +3,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/shridpant/smort-apps">
-    <img src="static/logo.png" alt="Logo" width="80" height="80">
+    <img src="static/logo.png" alt="Logo" width="100" height="50">
   </a>
 
   <h3 align="center">Hot Dog or Not</h3>
