@@ -1,4 +1,7 @@
 [![Issues][issues]][issues-url]
+[![Release][release]][release-url]
+[![License][license]][license-url]
+[![HBO][hbo]][hbo-url]
 
 <br />
 <p align="center">
