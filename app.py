@@ -22,8 +22,8 @@ def prediction(filename):
     image_file = tf.io.gfile.GFile(my_image, 'rb')
     data = image_file.read()
     # Model Initialization
-    classes = [line.rstrip() for line in tf.io.gfile.GFile(os.getcwd() + "\\ML-Model\\hot_dog_labels.txt")]
-    with tf.io.gfile.GFile(os.getcwd() + "\\ML-Model\\hot_dog_graph.pb", 'rb') as inception_graph:
+    classes = [line.rstrip() for line in tf.io.gfile.GFile(os.getcwd() + "\\ML-Model\\classes.txt")]
+    with tf.io.gfile.GFile(os.getcwd() + "\\ML-Model\\model.pb", 'rb') as inception_graph:
         definition = tf.compat.v1.GraphDef()
         definition.ParseFromString(inception_graph.read())
         _ = tf.import_graph_def(definition, name='')
