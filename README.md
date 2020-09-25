@@ -43,7 +43,7 @@ The web app was built completely with Flask, Tensorflow, Jupyter Notebook, Jinja
 ### Execution
 
 To execute, simply:
-  1. Clone this repositary with `git clone https://github.com/shridpant/hungryish`. Ensure you have tensorflow and Flask installed.
+  1. Clone this repository with `git clone https://github.com/shridpant/hungryish`. Ensure you have tensorflow and Flask installed.
   2. Execute with `python app.py`.
   3. Open the address from the terminal on your browser. Upload the image and get your results!
 
@@ -54,7 +54,7 @@ Distributed under the MIT license. See `LICENSE` for more information.
 
 ## Contributing
 
-This project welcomes contributions and suggestions. Feel free to fork this repositary or submit your ideas through `issues`.
+This project welcomes contributions and suggestions. Feel free to fork this repository or submit your ideas through `issues`.
 
 <!-- CONTACT -->
 ## Contact
