@@ -1,0 +1,5 @@
+tensorflow
+Werkzeug
+matplotlib
+Flask
+Jinja2
