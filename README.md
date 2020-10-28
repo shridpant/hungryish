@@ -10,7 +10,7 @@
   <a href="https://github.com/shridpant/hungryish">
     <img src="static/logo.png" alt="Logo" width="200" height="100">
   </a>
-  <h3 align="center">Hot Dog or Not</h3>
+  <h3 align="center">Hot dog or not</h3>
   <p align="center">
     Welcome to this GitHub repository!
     <br />
@@ -38,14 +38,14 @@
 ## About The Project
 
 <p align="center">
-    <img src="static/dinosaur.svg" alt="Dino" width="30">
+    <img src="static/dinosaur.svg" alt="Dino" width="100">
 </p>
 
 This repository contains the source code for the `hungryish` web app- it will tell if your image has a *hot dog* or *not*! The inspiration for the project was <a href="https://www.hbo.com/silicon-valley" target="_blank">Jian-Yang from the popular HBO Series Silicon Valley</a>. This project was made possible by many open-sourced libraries and frameworks.
 
 ### Technologies
 
-`Hungryish` was built written in Python 3.x employing Flask and Tensorflow. The front-end is simply HTML and CSS. See `Acknowledgements` for more info.
+`Hungryish` was built written in Python 3.7 employing Flask and Tensorflow. The front-end is simply HTML and CSS. See `Acknowledgements` for more info.
 
 ### Execution
 
@@ -59,15 +59,15 @@ To execute, simply:
 
 1. Home 
 
-![Home][product-screenshot]
+<img src="static/screenshot.PNG" alt="Home" width="300">
 
 2. Hot dog
 
-![Hot dog][hotdog-screenshot]
+<img src="static/ss-hotdog.PNG" alt="Hot dog" width="300">
 
 3. Not a hot dog
 
-![Not a hot dog][nothotdog-screenshot]
+<img src="static/ss-not.PNG" alt="Not hot dog" width="300">
 
 <!-- LICENSE -->
 ## License
@@ -81,7 +81,7 @@ This project welcomes contributions and suggestions. Feel free to fork this repo
 <!-- CONTACT -->
 ## Contact
 
-Do reach out to me on [LinkedIn](https://www.linkedin.com/in/shridpant/) for any specific queries regarding the project.
+Do reach out to me on [LinkedIn](https://www.linkedin.com/in/shridpant/) for any queries regarding the project.
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledements
@@ -104,6 +104,6 @@ Do reach out to me on [LinkedIn](https://www.linkedin.com/in/shridpant/) for any
 [license-url]: https://github.com/shridpant/hungryish/blob/master/LICENSE
 [hbo]: https://img.shields.io/badge/-HBO-lightgrey
 [hbo-url]: https://www.hbo.com/silicon-valley
-[product-screenshot]: static/screenshot.PNG
-[hotdog-screenshot]: static/ss-hotdog.PNG
-[nothotdog-screenshot]: static/ss-not.PNG
+[linkedin-shield]: https://github.com/shridpant/stockie/blob/main/static/readme/linkedin.svg
+[linkedin-url]: https://www.linkedin.com/in/shridpant/
+[github-shield]: https://img.shields.io/github/followers/shridpant?style=social
