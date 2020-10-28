@@ -1,3 +1,5 @@
+![github-shield]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 [![Issues][issues]][issues-url]
 [![Release][release]][release-url]
 [![License][license]][license-url]
@@ -24,8 +26,9 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-    * [Built With](#built-with)
+    * [Technologies](#technologies)
     * [Execution](#execution)
+    * [Illustration](#illustration)
 * [License](#license)
 * [Contributing](#contributing)
 * [Contact](#contact)
@@ -34,18 +37,37 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This repository contains the source code for the `hungryish` web app- it will tell if your image has a "hot dog" or "not"! The inspiration for the project was <a href="https://www.hbo.com/silicon-valley" target="_blank">Jian-Yang from the popular HBO Series Silicon Valley</a>. This project was made possible by many open-sourced libraries and frameworks.
+<p align="center">
+    <img src="static/dinosaur.svg" alt="Dino" width="30">
+</p>
 
-### Built With
+This repository contains the source code for the `hungryish` web app- it will tell if your image has a *hot dog* or *not*! The inspiration for the project was <a href="https://www.hbo.com/silicon-valley" target="_blank">Jian-Yang from the popular HBO Series Silicon Valley</a>. This project was made possible by many open-sourced libraries and frameworks.
 
-The web app was built completely with Flask, Tensorflow, Jupyter Notebook, Jinja2 and HTML. See `Acknowledgements` for more info.
+### Technologies
+
+`Hungryish` was built written in Python 3.x employing Flask and Tensorflow. The front-end is simply HTML and CSS. See `Acknowledgements` for more info.
 
 ### Execution
 
 To execute, simply:
-  1. Clone this repository with `git clone https://github.com/shridpant/hungryish`. Ensure you have tensorflow and Flask installed.
-  2. Execute with `python app.py`.
-  3. Open the address from the terminal on your browser. Upload the image and get your results!
+  1. Clone this repository with `git clone https://github.com/shridpant/hungryish`. 
+  2. Navigate to the root folder of the project and execute `pip install -r requirements.txt` to install all dependencies.
+  3. Execute with `python app.py`.
+  4. Open the address from the terminal on your browser. Upload the image and get your results!
+
+### Illustration
+
+1. Home 
+
+![Home][product-screenshot]
+
+2. Hot dog
+
+![Hot dog][hotdog-screenshot]
+
+3. Not a hot dog
+
+![Not a hot dog][nothotdog-screenshot]
 
 <!-- LICENSE -->
 ## License
@@ -59,11 +81,12 @@ This project welcomes contributions and suggestions. Feel free to fork this repo
 <!-- CONTACT -->
 ## Contact
 
-Shrid Pant - [LinkedIn](https://www.linkedin.com/in/shridpant/)
+Do reach out to me on [LinkedIn](https://www.linkedin.com/in/shridpant/) for any specific queries regarding the project.
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledements
 * [SeeFood Technologies](https://www.seefoodtechnologies.com/nothotdog/)
+* [Freepik from www.flaticon.com](https://www.flaticon.com/authors/freepik)     
 * [Jupyter Notebook](https://jupyter.org/)
 * [Tensorflow](https://github.com/tensorflow/tensorflow)
 * [Flask](https://flask.palletsprojects.com/en/1.1.x/)
@@ -75,10 +98,12 @@ Shrid Pant - [LinkedIn](https://www.linkedin.com/in/shridpant/)
 <!-- MARKDOWN LINKS & IMAGES -->
 [release]: https://img.shields.io/github/v/release/shridpant/hungryish?include_prereleases
 [release-url]: https://github.com/shridpant/hungryish/releases/tag/alpha
-[issues]: https://img.shields.io/github/issues-raw/shridpant/smort-apps
-[issues-url]: https://github.com/shridpant/smort-apps/issues
+[issues]: https://img.shields.io/github/issues-raw/shridpant/hungryish
+[issues-url]: https://github.com/shridpant/hungryish/issues
 [license]: https://img.shields.io/apm/l/vim-mode
 [license-url]: https://github.com/shridpant/hungryish/blob/master/LICENSE
 [hbo]: https://img.shields.io/badge/-HBO-lightgrey
 [hbo-url]: https://www.hbo.com/silicon-valley
-
+[product-screenshot]: static/screenshot.PNG
+[hotdog-screenshot]: static/ss-hotdog.PNG
+[nothotdog-screenshot]: static/ss-not.PNG
