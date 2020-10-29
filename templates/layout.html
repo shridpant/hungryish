@@ -12,7 +12,14 @@
             }
             section{
                 margin: auto;
-                height: 80vh;
+                height: 70vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .footwrap{
+                margin: auto;
+                height: 25vh;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -21,18 +28,16 @@
     </head>
     <body>
         <section>
-        <div class="container-fluid">
-            <div class="headwrap">
-                {% block body %}
-                {% endblock %}
-            </div>
+            <div class="container">
+                <div class="headwrap">
+                    {% block body %}
+                    {% endblock %}
+                </div>
             <div>
-            </section>
-            <div class="footwrap">
-            <center>
-                <p>This web app will tell if your image is a <strong>hot dog</strong> or not.</p>
-                <a href="https://www.imdb.com/title/tt2575988/" target="_blank">Inspired by Jian-Yang from Silicon Valley</a>
-            </center>
+        </section>
+            <div class="footwrap" style="align-content: center;">
+                <p>This web app will tell if your image is a <strong>hot dog</strong> or not.
+                Inspired by <a href="https://www.imdb.com/title/tt2575988/" target="_blank">Jian-Yang</a> from Silicon Valley</p>
             </div>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
