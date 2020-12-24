@@ -1,9 +1,8 @@
-![github-shield]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 [![Issues][issues]][issues-url]
 [![Release][release]][release-url]
 [![License][license]][license-url]
-[![HBO][hbo]][hbo-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+![github-shield]
 
 <br />
 <p align="center">
@@ -43,10 +42,12 @@
 
 This repository contains the source code for the `hungryish` web app- it will tell if your image has a *hot dog* or *not*! The inspiration for the project was <a href="https://www.hbo.com/silicon-valley" target="_blank">Jian-Yang from the popular HBO Series Silicon Valley</a>. This project was made possible by many open-sourced libraries and frameworks.
 
+<!-- TECHNOLOGIES -->
 ### Technologies
 
 `Hungryish` was built written in Python 3.7 employing Flask and Tensorflow. The front-end is simply HTML and CSS. See `Acknowledgements` for more info.
 
+<!-- EXECUTION -->
 ### Execution
 
 To execute, simply:
@@ -55,6 +56,7 @@ To execute, simply:
   3. Execute with `python app.py`.
   4. Open the address from the terminal on your browser. Upload the image and get your results!
 
+<!-- ILLUSTRATION -->
 ### Illustration
 
 1. Home 
@@ -74,6 +76,7 @@ To execute, simply:
 
 Distributed under the MIT license. See `LICENSE` for more information.
 
+<!-- CONTRIBUTING -->
 ## Contributing
 
 This project welcomes contributions and suggestions. Feel free to fork this repository or submit your ideas through `issues`.
@@ -85,6 +88,9 @@ Do reach out to me on [LinkedIn](https://www.linkedin.com/in/shridpant/) for any
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledements
+
+Hungryish wouldn't be possible without the following resources:
+
 * [SeeFood Technologies](https://www.seefoodtechnologies.com/nothotdog/)
 * [Freepik from www.flaticon.com](https://www.flaticon.com/authors/freepik)     
 * [Jupyter Notebook](https://jupyter.org/)
@@ -102,8 +108,6 @@ Do reach out to me on [LinkedIn](https://www.linkedin.com/in/shridpant/) for any
 [issues-url]: https://github.com/shridpant/hungryish/issues
 [license]: https://img.shields.io/apm/l/vim-mode
 [license-url]: https://github.com/shridpant/hungryish/blob/master/LICENSE
-[hbo]: https://img.shields.io/badge/-HBO-lightgrey
-[hbo-url]: https://www.hbo.com/silicon-valley
 [linkedin-shield]: https://github.com/shridpant/stockie/blob/main/static/readme/linkedin.svg
 [linkedin-url]: https://www.linkedin.com/in/shridpant/
 [github-shield]: https://img.shields.io/github/followers/shridpant?style=social
