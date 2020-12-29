@@ -26,6 +26,7 @@ from werkzeug.utils import secure_filename
 from werkzeug.exceptions import default_exceptions, HTTPException, InternalServerError
 import tensorflow as tf
 import matplotlib.pyplot as plt 
+import random
 
 from src import meme
 
@@ -74,7 +75,7 @@ def prediction(filename):
 
 def error(message, code=400):
     meme.meme(message)
-    return render_template("error.html")
+    return render_template("error.html", random = random.randint(1, 32500))
 
 # Error handler
 def errorhandler(e):

@@ -36,7 +36,7 @@ def meme(para = 'Hello, World!'):
     highlight_width = 5
 
     # MULTILINE
-    paragraph = textwrap.wrap(str(para), initial_indent = '(output) ', placeholder = 'etc etc ...', width = 25, max_lines = 3, break_long_words = True)
+    paragraph = textwrap.wrap(str(para), initial_indent = '(output) ', placeholder = ' etc etc ...', width = 25, max_lines = 3, break_long_words = True)
     initial_height, line_spacing = (0.01 * image_height), 1
     for line in paragraph:
         text_width, text_height = draw.textsize(line, font = arial)
