@@ -1,4 +1,7 @@
+[![Pull][pr]][pr-url]
 [![Issues][issues]][issues-url]
+[![Size][repo]][repo-url]
+[![Last][last]][last-url]
 [![Release][release]][release-url]
 [![License][license]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
@@ -74,12 +77,12 @@ To execute, simply:
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT license. See `LICENSE` for more information.
+`Hungryish` is distributed under the MIT license. See [LICENSE](https://github.com/shridpant/hungryish/blob/master/LICENSE) for more information.
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-This project welcomes contributions and suggestions. Feel free to fork this repository or submit your ideas through `issues`.
+This project welcomes contributions and suggestions. Feel free to fork this repository or submit your ideas through [issues](https://github.com/shridpant/hungryish/issues). Please carefully read and follow the [Contributor Covenant Code of Conduct](https://github.com/shridpant/stockie/blob/main/CODE_OF_CONDUCT.md) while participating in this project.
 
 <!-- CONTACT -->
 ## Contact
@@ -102,6 +105,14 @@ Hungryish wouldn't be possible without the following resources:
 * [Img Shields](https://shields.io)
 
 <!-- MARKDOWN LINKS & IMAGES -->
+[pr]: https://img.shields.io/github/issues-pr/shridpant/hungryish
+[pr-url]: https://github.com/shridpant/hungryish/pulls
+[repo]: https://img.shields.io/github/repo-size/shridpant/hungryish
+[repo-url]: https://github.com/shridpant/hungryish
+[last]: https://img.shields.io/github/last-commit/shridpant/hungryish
+[last-url]: https://github.com/shridpant/hungryish/commits/main
+[contributors]: https://img.shields.io/github/contributors/shridpant/hungryish
+[contributors-url]: https://github.com/shridpant/hungryish/graphs/contributors
 [release]: https://img.shields.io/github/v/release/shridpant/hungryish?include_prereleases
 [release-url]: https://github.com/shridpant/hungryish/releases/tag/alpha
 [issues]: https://img.shields.io/github/issues-raw/shridpant/hungryish
