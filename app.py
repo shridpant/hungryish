@@ -25,7 +25,6 @@ from flask import Flask, request, redirect, url_for, render_template
 from werkzeug.utils import secure_filename
 from werkzeug.exceptions import default_exceptions, HTTPException, InternalServerError
 import tensorflow as tf
-import matplotlib.pyplot as plt 
 import random
 
 from src import meme
